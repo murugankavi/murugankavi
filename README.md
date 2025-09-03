@@ -1,16 +1,97 @@
-## Hi there 👋
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AVM & SB Vegetable Shop — Fresh & Local</title>
+  <meta name="description" content="Fresh vegetables daily at AVM & SB, New Market, Surandai, Tenkasi District, Tamil Nadu. Order by WhatsApp or visit our shop." />
 
-<!--
-**murugankavi/murugankavi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <style>
+    :root{--accent:#2d8f3a;--bg:#f6fff6;--card:#ffffff;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, Arial, sans-serif;margin:0;background:var(--bg);color:#111}
+    header{background:linear-gradient(90deg, #e9fff0, #f0fff7);padding:20px;text-align:center;border-bottom:1px solid #e6f3ea}
+    .container{max-width:1100px;margin:24px auto;padding:0 16px}
+    h1{margin:6px 0;color:var(--accent)}
+    p.lead{margin:0 0 14px;color:var(--muted)}
 
-Here are some ideas to get you started:
+    .top-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:12px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-order{background:var(--accent);color:white}
+    .btn-contact{background:#fff;border:1px solid #e0e0e0;color:#111}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:20px}
+    .card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(18,18,18,0.06);text-align:center}
+    .card img{width:100%;height:150px;object-fit:cover;border-radius:8px}
+    .price{font-weight:700;color:var(--accent);margin-top:8px}
+    .small{font-size:0.9rem;color:var(--muted)}
+
+    footer{padding:18px;text-align:center;color:var(--muted);margin-top:28px}
+    .section-title{margin-top:24px;margin-bottom:10px;color:var(--accent)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>🌿 AVM & SB Vegetable Shop</h1>
+      <p class="lead">Fresh, local vegetables daily — Surandai, Tenkasi District.</p>
+      <div class="top-actions">
+        <a class="btn btn-order" href="https://wa.me/919442068141?text=Hello%20-%20I%20want%20to%20order%20vegetables" target="_blank" rel="noopener">📱 Order on WhatsApp (94420 68141)</a>
+        <a class="btn btn-order" href="https://wa.me/919715334703?text=Hello%20-%20I%20want%20to%20order%20vegetables" target="_blank" rel="noopener">📱 Order on WhatsApp (97153 34703)</a>
+        <a class="btn btn-contact" href="tel:+919442068141">📞 Call: 94420 68141</a>
+        <a class="btn btn-contact" href="tel:+919715334703">📞 Call: 97153 34703</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2 class="section-title">🌿 Leafy Greens (கீரைகள்)</h2>
+    <div class="grid">
+      <div class="card"><img src="https://images.unsplash.com/photo-1506806732259-39c2d0268443" alt="Spinach"><h4>Spinach – கீரை</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1615485737656-57fdbd7f2d7f" alt="Amaranthus"><h4>Amaranthus – தண்டு கீரை</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1615484479344-94806a2cf54e" alt="Fenugreek"><h4>Fenugreek – வெந்தயக் கீரை</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1622208915853-f7f02d806b6e" alt="Drumstick leaves"><h4>Drumstick leaves – முருங்கைக் கீரை</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1616046229478-990b8b21f0c7" alt="Agathi leaves"><h4>Agathi leaves – ஆகத்திக் கீரை</h4><div class="price">Price varies daily</div></div>
+    </div>
+
+    <h2 class="section-title">🥔 Root Vegetables (கிழங்குகள்)</h2>
+    <div class="grid">
+      <div class="card"><img src="https://images.unsplash.com/photo-1506801310323-534be5e7f7a5" alt="Potato"><h4>Potato – உருளைக்கிழங்கு</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac76" alt="Sweet Potato"><h4>Sweet Potato – சக்கரைவள்ளிக்கிழங்கு</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Carrot"><h4>Carrot – காரட்</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1573140247632-f8fd74997d5c" alt="Beetroot"><h4>Beetroot – பீட்ரூட்</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1622037026940-d6fb8c672a19" alt="Radish"><h4>Radish – முள்ளங்கி</h4><div class="price">Price varies daily</div></div>
+    </div>
+
+    <h2 class="section-title">🍆 Fruity Vegetables (காய் வகைகள்)</h2>
+    <div class="grid">
+      <div class="card"><img src="https://images.unsplash.com/photo-1615485737683-2931d6400ed1" alt="Brinjal"><h4>Brinjal – கத்தரிக்காய்</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1542444459-db6f8f6f3f64" alt="Tomato"><h4>Tomato – தக்காளி</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1607305387299-5e62a73d67c2" alt="Lady’s Finger"><h4>Lady’s Finger – வெண்டைக்காய்</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1622208915853-f7f02d806b6e" alt="Bitter Gourd"><h4>Bitter Gourd – பாகற்காய்</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1587049352846-4d8a9b6ed31c" alt="Ridge Gourd"><h4>Ridge Gourd – பீர்க்கங்காய்</h4><div class="price">Price varies daily</div></div>
+    </div>
+
+    <h2 class="section-title">🌱 Beans & Pulses (பருப்பு/பீன்ஸ் வகைகள்)</h2>
+    <div class="grid">
+      <div class="card"><img src="https://images.unsplash.com/photo-1603052875121-5c1f5c0d763a" alt="Beans"><h4>Beans – பீன்ஸ்</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1587049352846-4d8a9b6ed31c" alt="Cluster Beans"><h4>Cluster Beans – கொத்தவரங்காய்</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1587733469054-8323a7705a4a" alt="Broad Beans"><h4>Broad Beans – அவரைக்காய்</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1602751581071-4f0eaeed0d7d" alt="Green Peas"><h4>Green Peas – பட்டாணி</h4><div class="price">Price varies daily</div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1622208915853-f7f02d806b6e" alt="Cowpea"><h4>Cowpea – கராமணி</h4><div class="price">Price varies daily</div></div>
+    </div>
+
+    <h2 class="section-title">📍 Find Us</h2>
+    <iframe src="https://www.google.com/maps?q=New+Market,Surandai,Tenkasi+District,Tamil+Nadu&output=embed" width="100%" height="300" style="border:0;border-radius:12px" loading="lazy"></iframe>
+
+    <h2 class="section-title">About Us</h2>
+    <p class="small">Family-run since 20XX. We provide fresh vegetables daily from Surandai New Market. Open hours: 7 AM – 9 PM. Home delivery available within a 5 km radius. Payment: Cash & UPI accepted.</p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="small">© AVM & SB Vegetable Shop • Contact: 94420 68141 / 97153 34703 • New Market, Surandai, Tenkasi District, Tamil Nadu • Made with ❤️</p>
+    </div>
+  </footer>
+</body>
+</html>
